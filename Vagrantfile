@@ -14,22 +14,22 @@ end
 # see https://update.k3s.io/v1-release/channels
 # see https://github.com/k3s-io/k3s/releases
 k3s_channel = 'latest'
-k3s_version = 'v1.22.4+k3s1'
+k3s_version = 'v1.22.8-rc1+k3s1'
 # see https://github.com/helm/helm/releases
-helm_version = 'v3.7.1'
+helm_version = 'v3.8.1'
 # see https://github.com/roboll/helmfile/releases
-helmfile_version = 'v0.142.0'
+helmfile_version = 'v0.143.1'
 # see https://github.com/kubernetes/dashboard/releases
-k8s_dashboard_version = 'v2.4.0'
+k8s_dashboard_version = 'v2.5.1'
 # see https://github.com/derailed/k9s/releases
-k9s_version = 'v0.25.7'
+k9s_version = 'v0.25.18'
 # see https://github.com/kubernetes-sigs/krew/releases
-krew_version = 'v0.4.2'
+krew_version = 'v0.4.3'
 # see https://github.com/etcd-io/etcd/releases
 # NB make sure you use the same version as k3s.
 etcdctl_version = 'v3.5.0'
 # see https://gitlab.com/gitlab-org/charts/gitlab-runner/-/tags
-gitlab_runner_chart_version = '0.35.0'
+gitlab_runner_chart_version = '0.39.0'
 # link to the gitlab-vagrant environment (https://github.com/rgl/gitlab-vagrant running at ../gitlab-vagrant).
 gitlab_fqdn = 'gitlab.example.com'
 gitlab_ip = '10.10.9.99'
